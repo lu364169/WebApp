@@ -71,23 +71,39 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
-    <Content Include="Default.aspx" />
-    <Content Include="DisplayPage.aspx" />
+    <Content Include="Business_Logic_Layer\DetailBLL.aspx" />
+    <Content Include="Data_Layer\DetailDAL.aspx" />
+    <Content Include="Display_Layer\Default.aspx" />
+    <Content Include="Display_Layer\DisplayPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
+    <Compile Include="Business_Logic_Layer\DetailBLL.aspx.cs">
+      <DependentUpon>DetailBLL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Business_Logic_Layer\DetailBLL.aspx.designer.cs">
+      <DependentUpon>DetailBLL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Layer\DetailDAL.aspx.cs">
+      <DependentUpon>DetailDAL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Data_Layer\DetailDAL.aspx.designer.cs">
+      <DependentUpon>DetailDAL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Display_Layer\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
+    <Compile Include="Display_Layer\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DisplayPage.aspx.cs">
+    <Compile Include="Display_Layer\DisplayPage.aspx.cs">
       <DependentUpon>DisplayPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DisplayPage.aspx.designer.cs">
+    <Compile Include="Display_Layer\DisplayPage.aspx.designer.cs">
       <DependentUpon>DisplayPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

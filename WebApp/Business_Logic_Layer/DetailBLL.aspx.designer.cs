@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApp
+namespace WebApp.Business_Logic_Layer
 {
 
 
-    public partial class DisplayPage
+    public partial class DetailBLL
     {
 
         /// <summary>
@@ -22,14 +22,5 @@ namespace WebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// userName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView userName;
     }
 }

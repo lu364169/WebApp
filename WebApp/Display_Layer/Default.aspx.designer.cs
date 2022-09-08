@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApp
+namespace WebApp.Display_Layer
 {
 
 

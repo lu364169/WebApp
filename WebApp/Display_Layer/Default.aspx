@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApp.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApp.Display_Layer.Default" %>
 
 <!DOCTYPE html>
 
@@ -37,7 +37,7 @@
             </asp:RequiredFieldValidator>
 
             <p></p>
-            <asp:Button ID="UploadButton" Text="Insert" runat="server" Onclick="insertEventMethod"/>
+            <asp:Button ID="UploadButton" Text="Insert" runat="server" Onclick="InsertEventMethod"/>
 
 
 
